@@ -46,12 +46,12 @@
     font-weight: bold;
 }
 </style>
-<h1>api-documentation for
+<h1>api documentation for
     <a
 
         href="http://sinonjs.org/"
 
-    >sinon (v2.0.0)</a>
+    >sinon (v2.1.0)</a>
 </h1>
 <h4>JavaScript test spies, stubs and mocks.</h4>
 <div class="apidocSectionDiv"><a
@@ -2489,6 +2489,24 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.sinon.spy.calledBefore">
             function <span class="apidocSignatureSpan">sinon.spy.</span>calledBefore
+            <span class="apidocSignatureSpan">(spyFn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.sinon.spy.calledImmediatelyAfter">
+            function <span class="apidocSignatureSpan">sinon.spy.</span>calledImmediatelyAfter
+            <span class="apidocSignatureSpan">(spyFn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.sinon.spy.calledImmediatelyBefore">
+            function <span class="apidocSignatureSpan">sinon.spy.</span>calledImmediatelyBefore
             <span class="apidocSignatureSpan">(spyFn)</span>
             </a>
 
@@ -8387,6 +8405,44 @@
     }
 
     return this.callIds[0] &#x3c; spyFn.callIds[spyFn.callIds.length - 1];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.sinon.spy.calledImmediatelyAfter" id="apidoc.element.sinon.spy.calledImmediatelyAfter">
+        function <span class="apidocSignatureSpan">sinon.spy.</span>calledImmediatelyAfter
+        <span class="apidocSignatureSpan">(spyFn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function calledImmediatelyAfter(spyFn) {
+    if (!this.called || !spyFn.called) {
+        return false;
+    }
+
+    return this.callIds[this.callCount - 1] === spyFn.callIds[spyFn.callCount - 1] + 1;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.sinon.spy.calledImmediatelyBefore" id="apidoc.element.sinon.spy.calledImmediatelyBefore">
+        function <span class="apidocSignatureSpan">sinon.spy.</span>calledImmediatelyBefore
+        <span class="apidocSignatureSpan">(spyFn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function calledImmediatelyBefore(spyFn) {
+    if (!this.called || !spyFn.called) {
+        return false;
+    }
+
+    return this.callIds[this.callCount - 1] === spyFn.callIds[spyFn.callCount - 1] - 1;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>

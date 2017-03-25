@@ -1,13 +1,62 @@
-<svg height="158" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="158" fill="#555" width="720"></rect>
+<svg height="942" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="942" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  1.  2017-03-20 22:21:14 +0800       99 byte  .gitignore</tspan>
-<tspan x="10" y="42">  2.  2017-03-20 22:21:14 +0800     7323 byte  .travis.yml</tspan>
-<tspan x="10" y="58">  3.  2017-03-20 22:21:14 +0800     1120 byte  LICENSE</tspan>
-<tspan x="10" y="74">  4.  2017-03-20 14:23:28 +0000   245713 byte  README.md</tspan>
-<tspan x="10" y="90">  5.  2017-03-20 22:21:14 +0800     1524 byte  assets.npmdoc_sinon.rollup.js</tspan>
-<tspan x="10" y="106">  6.  2017-03-20 22:21:14 +0800     1524 byte  lib.npmdoc_sinon.js</tspan>
-<tspan x="10" y="122">  7.  2017-03-20 14:23:28 +0000     1467 byte  package.json</tspan>
-<tspan x="10" y="138">  8.  2017-03-20 22:21:14 +0800     5059 byte  test.js</tspan>
+<tspan x="10" y="26">  1.  2017-03-25 18:00:41 +0000     8064 byte  AUTHORS</tspan>
+<tspan x="10" y="42">  2.  2017-03-25 18:00:41 +0000     5211 byte  CONTRIBUTING.md</tspan>
+<tspan x="10" y="58">  3.  2017-03-25 18:00:41 +0000    45265 byte  Changelog.txt</tspan>
+<tspan x="10" y="74">  4.  2017-03-25 18:00:41 +0000     1572 byte  LICENSE</tspan>
+<tspan x="10" y="90">  5.  2017-03-25 18:00:41 +0000    11785 byte  README.md</tspan>
+<tspan x="10" y="106">  6.  2017-03-25 18:00:41 +0000     2601 byte  lib/sinon.js</tspan>
+<tspan x="10" y="122">  7.  2017-03-25 18:00:41 +0000     6939 byte  lib/sinon/assert.js</tspan>
+<tspan x="10" y="138">  8.  2017-03-25 18:00:41 +0000     5737 byte  lib/sinon/behavior.js</tspan>
+<tspan x="10" y="154">  9.  2017-03-25 18:00:41 +0000      160 byte  lib/sinon/blob.js</tspan>
+<tspan x="10" y="170"> 10.  2017-03-25 18:00:41 +0000     6191 byte  lib/sinon/call.js</tspan>
+<tspan x="10" y="186"> 11.  2017-03-25 18:00:41 +0000      626 byte  lib/sinon/collect-own-methods.js</tspan>
+<tspan x="10" y="202"> 12.  2017-03-25 18:00:41 +0000     2843 byte  lib/sinon/collection.js</tspan>
+<tspan x="10" y="218"> 13.  2017-03-25 18:00:41 +0000      329 byte  lib/sinon/color.js</tspan>
+<tspan x="10" y="234"> 14.  2017-03-25 18:00:41 +0000     5884 byte  lib/sinon/default-behaviors.js</tspan>
+<tspan x="10" y="250"> 15.  2017-03-25 18:00:41 +0000     9656 byte  lib/sinon/match.js</tspan>
+<tspan x="10" y="266"> 16.  2017-03-25 18:00:41 +0000     7766 byte  lib/sinon/mock-expectation.js</tspan>
+<tspan x="10" y="282"> 17.  2017-03-25 18:00:41 +0000     5068 byte  lib/sinon/mock.js</tspan>
+<tspan x="10" y="298"> 18.  2017-03-25 18:00:41 +0000     3676 byte  lib/sinon/sandbox.js</tspan>
+<tspan x="10" y="314"> 19.  2017-03-25 18:00:41 +0000     3082 byte  lib/sinon/spy-formatters.js</tspan>
+<tspan x="10" y="330"> 20.  2017-03-25 18:00:41 +0000    14096 byte  lib/sinon/spy.js</tspan>
+<tspan x="10" y="346"> 21.  2017-03-25 18:00:41 +0000     1461 byte  lib/sinon/stub-descriptor.js</tspan>
+<tspan x="10" y="362"> 22.  2017-03-25 18:00:41 +0000      660 byte  lib/sinon/stub-entire-object.js</tspan>
+<tspan x="10" y="378"> 23.  2017-03-25 18:00:41 +0000      560 byte  lib/sinon/stub-non-function-property.js</tspan>
+<tspan x="10" y="394"> 24.  2017-03-25 18:00:41 +0000     5187 byte  lib/sinon/stub.js</tspan>
+<tspan x="10" y="410"> 25.  2017-03-25 18:00:41 +0000      356 byte  lib/sinon/throw-on-falsy-object.js</tspan>
+<tspan x="10" y="426"> 26.  2017-03-25 18:00:41 +0000      317 byte  lib/sinon/util/core/called-in-order.js</tspan>
+<tspan x="10" y="442"> 27.  2017-03-25 18:00:41 +0000     2685 byte  lib/sinon/util/core/deep-equal.js</tspan>
+<tspan x="10" y="458"> 28.  2017-03-25 18:00:41 +0000      206 byte  lib/sinon/util/core/default-config.js</tspan>
+<tspan x="10" y="474"> 29.  2017-03-25 18:00:41 +0000      999 byte  lib/sinon/util/core/deprecated.js</tspan>
+<tspan x="10" y="490"> 30.  2017-03-25 18:00:41 +0000      436 byte  lib/sinon/util/core/every.js</tspan>
+<tspan x="10" y="506"> 31.  2017-03-25 18:00:41 +0000     2101 byte  lib/sinon/util/core/extend.js</tspan>
+<tspan x="10" y="522"> 32.  2017-03-25 18:00:41 +0000      243 byte  lib/sinon/util/core/format.js</tspan>
+<tspan x="10" y="538"> 33.  2017-03-25 18:00:41 +0000      513 byte  lib/sinon/util/core/function-name.js</tspan>
+<tspan x="10" y="554"> 34.  2017-03-25 18:00:41 +0000      443 byte  lib/sinon/util/core/function-to-string.js</tspan>
+<tspan x="10" y="570"> 35.  2017-03-25 18:00:41 +0000      391 byte  lib/sinon/util/core/get-config.js</tspan>
+<tspan x="10" y="586"> 36.  2017-03-25 18:00:41 +0000      294 byte  lib/sinon/util/core/get-property-descriptor.js</tspan>
+<tspan x="10" y="602"> 37.  2017-03-25 18:00:41 +0000      820 byte  lib/sinon/util/core/index.js</tspan>
+<tspan x="10" y="618"> 38.  2017-03-25 18:00:41 +0000      876 byte  lib/sinon/util/core/iterable-to-string.js</tspan>
+<tspan x="10" y="634"> 39.  2017-03-25 18:00:41 +0000     1486 byte  lib/sinon/util/core/log_error.js</tspan>
+<tspan x="10" y="650"> 40.  2017-03-25 18:00:41 +0000      353 byte  lib/sinon/util/core/order-by-first-call.js</tspan>
+<tspan x="10" y="666"> 41.  2017-03-25 18:00:41 +0000      500 byte  lib/sinon/util/core/restore.js</tspan>
+<tspan x="10" y="682"> 42.  2017-03-25 18:00:41 +0000      166 byte  lib/sinon/util/core/times-in-words.js</tspan>
+<tspan x="10" y="698"> 43.  2017-03-25 18:00:41 +0000      134 byte  lib/sinon/util/core/typeOf.js</tspan>
+<tspan x="10" y="714"> 44.  2017-03-25 18:00:41 +0000      154 byte  lib/sinon/util/core/value-to-string.js</tspan>
+<tspan x="10" y="730"> 45.  2017-03-25 18:00:41 +0000     1732 byte  lib/sinon/util/core/walk.js</tspan>
+<tspan x="10" y="746"> 46.  2017-03-25 18:00:41 +0000     5536 byte  lib/sinon/util/core/wrap-method.js</tspan>
+<tspan x="10" y="762"> 47.  2017-03-25 18:00:41 +0000     2354 byte  lib/sinon/util/event.js</tspan>
+<tspan x="10" y="778"> 48.  2017-03-25 18:00:41 +0000     7511 byte  lib/sinon/util/fake_server.js</tspan>
+<tspan x="10" y="794"> 49.  2017-03-25 18:00:41 +0000     1774 byte  lib/sinon/util/fake_server_with_clock.js</tspan>
+<tspan x="10" y="810"> 50.  2017-03-25 18:00:41 +0000      799 byte  lib/sinon/util/fake_timers.js</tspan>
+<tspan x="10" y="826"> 51.  2017-03-25 18:00:41 +0000    20190 byte  lib/sinon/util/fake_xml_http_request.js</tspan>
+<tspan x="10" y="842"> 52.  2017-03-25 18:00:41 +0000    21793 byte  package.json</tspan>
+<tspan x="10" y="858"> 53.  2017-03-25 18:00:41 +0000  2167896 byte  pkg/sinon-2.1.0.js</tspan>
+<tspan x="10" y="874"> 54.  2017-03-25 18:00:41 +0000   888003 byte  pkg/sinon-no-sourcemaps-2.1.0.js</tspan>
+<tspan x="10" y="890"> 55.  2017-03-25 18:00:41 +0000   888003 byte  pkg/sinon-no-sourcemaps.js</tspan>
+<tspan x="10" y="906"> 56.  2017-03-25 18:00:41 +0000  2167896 byte  pkg/sinon.js</tspan>
+<tspan x="10" y="922"> 57.  2017-03-25 18:00:41 +0000  6341379 byte  .</tspan>
 </text>
 </svg>
