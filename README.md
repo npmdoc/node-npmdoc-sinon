@@ -1,6 +1,6 @@
 # npmdoc-sinon
 
-#### api documentation for  [sinon (v2.1.0)](http://sinonjs.org/)  [![npm package](https://img.shields.io/npm/v/npmdoc-sinon.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-sinon) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-sinon.svg)](https://travis-ci.org/npmdoc/node-npmdoc-sinon)
+#### basic api documentation for  [sinon (v2.1.0)](http://sinonjs.org/)  [![npm package](https://img.shields.io/npm/v/npmdoc-sinon.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-sinon) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-sinon.svg)](https://travis-ci.org/npmdoc/node-npmdoc-sinon)
 
 #### JavaScript test spies, stubs and mocks.
 
@@ -764,7 +764,8 @@
         "test-node": "mocha --recursive -R dot test/",
         "test-webworker": "browserify --no-commondir --full-paths -p [ mocaccino -R spec --color ] test/webworker/webworker-support-assessment.js | phantomic --web-security false"
     },
-    "version": "2.1.0"
+    "version": "2.1.0",
+    "bin": {}
 }
 ```
 
